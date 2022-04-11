@@ -1,30 +1,16 @@
-import './App.css';
-import React, {Component} from 'react';
-import { BrowserRouter as Router, Routes, Route, Link HashRouter, Switch, NavLink,} from "react-router-dom";
-import Home from './components/Home/Home';
-import {BrowserRouter} from "react-router-dom";
+import React from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-class Main extends Component {
-    render() {
-        return <BrowserRouter>
-            <>
-                <Route exact path='/' component={Home} />
-                <Route path='/contact' component={Contact} />
-            </>
-        </BrowserRouter>;
-    }
-}
-class Contact extends Component {
-    render() {
-        return <h1>Contact us at contact@example.com</h1>;
-    }
-}
-class App extends Component {
-    render() {
-        return <Main />;
-    }
-}
+import { Home } from './components/Home/Home';
 
-
+export const App = () => {
+    return <BrowserRouter>
+        <Routes>
+            <Route exact path='/' element={<Home/>} />
+            <Route path='/contact' element={<Home/>} />
+            <Route path='/login' element={<div>LOGIN</div>} />
+        </Routes>
+    </BrowserRouter>;
+};
 
 export default App;

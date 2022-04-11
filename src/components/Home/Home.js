@@ -1,18 +1,16 @@
 import React from "react";
-import '../../scss/Home.css';
 
-// function Home(props) {
-//     return (
-//         <div className="home">
-//             <p className="text">
-//
-//                tekst na stronie głównej
-//
-//             </p>
-//         </div>
-//     );
+import {HomeHeader} from "./HomeHeader/HomeHeader";
 
+import './Home.scss';
 
-
-
-// export default Home;
+export function Home(props) {
+  return (
+    <div className="home">
+      <HomeHeader/>
+      <p className="text">
+        tekst na stronie główne
+      </p>
+    </div>
+  );
+}

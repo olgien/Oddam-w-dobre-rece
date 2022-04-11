@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './scss/settings/main.scss';
-import * as ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
+
+import './scss/main.scss';
 
 ReactDOM.render(
   <React.StrictMode>
