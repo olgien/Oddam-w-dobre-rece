@@ -1,0 +1,24 @@
+//.home {
+//  background-image:'src/components/Home/HomeHeader/Home-Hero-Image.jpg';
+//  background-position: center;
+//  width: 100%;
+//}
+//
+// -- próbowałam albo powyżej albo to poniżej
+
+.background {
+  width: 50%;
+}
+
+.text {
+  display: flex;
+  justify-content: flex-end;
+  left: 951px;
+  width: 674px;
+  height: 107px;
+  text-align: center;
+  font: normal 38px Open Sans;
+  letter-spacing: -0.76px;
+  color: #3C3C3C;
+  top: 642px;
+}
