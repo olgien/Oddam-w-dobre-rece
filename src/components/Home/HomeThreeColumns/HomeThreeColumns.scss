@@ -1,0 +1,25 @@
+.HomeThreeColumns {
+  background-image: 'src/assets/3 Columns Background.png'; //nie działa
+  background-repeat: repeat;
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+  height: 384px;
+  top: 964px;
+
+  .colFirst .colSec .colThird {
+    width: 334px
+  }
+
+  h1 {
+    text-align: center;
+    font: normal 300 90px Open Sans;
+    letter-spacing: 0px;
+    color: #5E5322;
+    opacity: 1;
+  }
+
+  h3 {
+    text-transform: uppercase;
+  }
+}

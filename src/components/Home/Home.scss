@@ -1,24 +1,40 @@
-//.home {
+.home {
+  width: 1368px;
 //  background-image:'src/components/Home/HomeHeader/Home-Hero-Image.jpg';
 //  background-position: center;
 //  width: 100%;
-//}
-//
 // -- próbowałam albo powyżej albo to poniżej
+}
 
 .background {
   width: 50%;
 }
+.start {
 
-.text {
-  display: flex;
-  justify-content: flex-end;
-  left: 951px;
-  width: 674px;
-  height: 107px;
-  text-align: center;
-  font: normal 38px Open Sans;
-  letter-spacing: -0.76px;
-  color: #3C3C3C;
-  top: 642px;
+  .text {
+    display: flex;
+    justify-content: flex-end;
+    left: 951px;
+    width: 674px;
+    height: 107px;
+    text-align: center;
+    font: normal 38px Open Sans;
+    letter-spacing: -0.76px;
+    color: #3C3C3C;
+    top: 642px;
+  }
+
+  a {
+    //font-style: $font-base;
+    text-align: center;
+    font: normal normal 300 36px/45px Open Sans;
+    color: #3C3C3C;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 30%;
+    padding: 20px;
+    margin: 20px;
+    border: 0.75px solid #3C3C3C;
+  }
+
 }
