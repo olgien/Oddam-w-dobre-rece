@@ -1,5 +1,5 @@
 .HomeThreeColumns {
-  background-image: 'src/assets/3 Columns Background.png'; //nie działa
+  background-image: url('3 Columns Background.png'); //nie działa
   background-repeat: repeat;
   display: flex;
   justify-content: center;

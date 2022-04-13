@@ -1,21 +1,22 @@
+@import '../../../scss/settings/colors';
 
-  .fourColumns {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+.fourColumns {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 
-    h4 {
-      text-align: left;
-      font: 18px Open Sans;
-      letter-spacing: 0px;
-      color: #3C3C3C;
-    }
-
-    .firstCol .secCol .thirdCol .fourthCol {
-      padding: 20px;
-      text-align: center;
-      font: 16px Open Sans;
-      color: #3C3C3C;
-      width: 50%;
-    }
+  h4 {
+    text-align: left;
+    font: 18px Open Sans;
+    letter-spacing: 0px;
+    color: $main-color;
   }
+
+  .firstCol .secCol .thirdCol .fourthCol {
+    padding: 20px;
+    text-align: center;
+    font: 16px Open Sans;
+    color: $main-color;
+    width: 50%;
+  }
+}
