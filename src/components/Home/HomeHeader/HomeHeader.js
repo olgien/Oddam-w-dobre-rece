@@ -1,4 +1,4 @@
-import HeroImage from './Home-Hero-Image.jpg';
+import HeroImage from '../Home-Hero-Image.jpg';
 
 import './HomeHeader.scss';
 
