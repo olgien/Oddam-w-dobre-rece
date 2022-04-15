@@ -1,6 +1,5 @@
 .HomeHeader {
-  height: 19px;
-  top: 37px; // << to nie działa
+  margin-top: 12px;
   width: 100%;
   // font-style: $font-base; << to nie działa
 
@@ -11,7 +10,7 @@
   a {
     color: #737373;
     text-align: right;
-    font: normal normal normal 13px Open Sans;
+    font: normal 13px Open Sans;
     text-decoration: none;
     width: 90px;
     display: flex;

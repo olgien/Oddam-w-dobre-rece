@@ -1,0 +1,22 @@
+.Button {
+  text-align: left;
+  font: 18px Open Sans;
+  color: #3C3C3C;
+  opacity: 1;
+  padding: 16px;
+  text-decoration: none;
+
+  &--m {
+    font-size: 24px;
+  }
+}
+.button-heading {
+  margin-top: 108px;
+  text-align: center;
+  font: normal 300 36px Open Sans;
+  color: #3C3C3C;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  border: 1px solid #3C3C3C;
+}

@@ -1,2 +1,6 @@
-$font-base: OpenSans;
+$font-base: Open Sans;
 $font-alt: Merriweather;
+
+body {
+  font-family: $font-base, sans-serif;
+}

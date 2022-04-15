@@ -1,5 +1,4 @@
 .secondNavbar {
-
   width: 100%;
   display: flex;
   justify-content: flex-end;
@@ -11,11 +10,9 @@
     opacity: 1;
     padding: 16px;
     text-decoration: none;
-    box-sizing: border-box;
-    border: 1px solid transparent;
 
     &:hover {
-      border: 1px solid #3C3C3C;
+      border: 0.75px solid #3C3C3C;
     }
   }
 

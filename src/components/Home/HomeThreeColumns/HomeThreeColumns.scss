@@ -1,25 +1,43 @@
 .HomeThreeColumns {
-  background-image: 'src/assets/3 Columns Background.png'; //nie działa
+  background-image: url('3 Columns Background.png');
   background-repeat: repeat;
   display: flex;
   justify-content: center;
-  padding: 80px;
-  height: 384px;
-  top: 964px;
+  padding: 50px;
+  height: 284px;
+  margin-top: -50px; // to chyba nie najlepsze rozwiazanie
 
-  .colFirst .colSec .colThird {
-    width: 334px
+  .column {
+    width: 334px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
   }
 
   h1 {
     text-align: center;
     font: normal 300 90px Open Sans;
-    letter-spacing: 0px;
     color: #5E5322;
     opacity: 1;
   }
 
   h3 {
     text-transform: uppercase;
+    text-align: left;
+    font: normal 18px Open Sans;
+    letter-spacing: -0.36px;
+    color: #3C3C3C;
+
+  }
+
+  p {
+    margin-top: 20px;
+    text-align: center;
+    font: normal 300 16px Merriweather;
+    letter-spacing: -0.32px;
+    color: #3C3C3C;
+    width: 350px;
   }
 }
