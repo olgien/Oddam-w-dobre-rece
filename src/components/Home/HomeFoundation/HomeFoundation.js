@@ -19,6 +19,7 @@ export const HomeFoundation = () => {
         Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.</p>
     </div>
     <div className={'listFoundation'}>
+      {/*tu będzie lista fundacji*/}
     </div>
 
   </div>
