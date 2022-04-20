@@ -1,0 +1,35 @@
+.HomeFoundation {
+  h2 {
+    margin-top: 40px;
+    text-align: center;
+    font: normal 38px Open Sans;
+    letter-spacing: -0.76px;
+    color: #3C3C3C;
+  }
+
+
+  .buttonsFoundation {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .text {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    p {
+      font: normal normal normal 22px/30px Open Sans;
+      color: #3C3C3C;
+      width: 40%;
+    }
+  }
+
+  .listFoundation {
+
+  }
+
+}
