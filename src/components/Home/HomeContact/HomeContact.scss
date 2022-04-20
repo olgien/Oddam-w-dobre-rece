@@ -1,0 +1,53 @@
+.HomeContact {
+  background: #FFFFFFC9 no-repeat padding-box;
+
+  height: 1026px;
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .imageContainer {
+
+      img {
+      opacity: 0.3;
+      }
+
+    }
+
+    .contact {
+
+      h2 {
+        text-align: center;
+        font: normal 38px Open Sans;
+        color: #3C3C3C;
+      }
+
+    }
+
+  }
+
+  .footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    .copyright {
+      font: normal 18px Open Sans;
+      color: #3C3C3C;
+
+    }
+
+    .socials {
+      margin: 0 100px 0px 600px;
+
+      img {
+        padding: 10px;
+      }
+    }
+
+  }
+
+}
+

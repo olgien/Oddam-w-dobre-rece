@@ -14,8 +14,11 @@
 
   &--m {
     font-size: 24px;
-    text-transform: capitalize;
+    text-transform: none;
     border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     &:hover {
       border: 1px solid #3C3C3C;

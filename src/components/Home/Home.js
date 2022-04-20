@@ -8,6 +8,7 @@ import {HomeHeading} from "./HomeHeading/HomeHeading";
 import {Button} from "../Button/Button";
 import {HomeAbout} from "./HomeAbout/HomeAbout";
 import {HomeFoundation} from "./HomeFoundation/HomeFoundation";
+import {HomeContact} from "./HomeContact/HomeContact";
 
 export function Home(props) {
   return (
@@ -15,11 +16,12 @@ export function Home(props) {
         <HomeHeading/>
         <HomeThreeColumns/>
         <HomeFourColumns/>
-       <div className={'buttonStyle'}>
-         <Button navTo={"/"} size='l' style={{width: '250px'}}>Oddaj <br/> rzeczy</Button>
-       </div>
+         <div className={'buttonStyle'}>
+           <Button navTo={"/"} size='l' style={{width: '250px'}}>Oddaj <br/> rzeczy</Button>
+         </div>
         <HomeAbout/>
         <HomeFoundation/>
+        <HomeContact/>
     </div>
   );
 }
