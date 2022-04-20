@@ -26,13 +26,18 @@
         width: 150px;
         margin: 40px;
 
+        img {
+          margin-top: 20px;
+          margin-bottom: 20px;
+        }
+
         hr {
           border: 0,5px solid #3C3C3C;
           width: 70px;
         }
 
         h4 {
-          margin-top: 20px;
+          margin-bottom: 10px;
           text-align: left;
           font: 18px Open Sans;
           color: $main-color;

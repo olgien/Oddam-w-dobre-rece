@@ -5,23 +5,30 @@ export const Button = ({
   borderless = true,
   navTo,
   size = "s",
-//  className = "", forceBorder, size, style: elementStyle = {}, width, height,
+  className = "",
+                         // forceBorder, size, style: elementStyle = {}, width, height,
    ...rest
 }) => {
   // const borderClass = forceBorder ? "Button--bordered" : "";
-  const sizeClass = size === 'm' ? 'Button--m' : 'Button--s';
-  // const style = {
-  //   ...elementStyle, height: height ? height : 'auto', width: width ? width : 'auto'
-  // };
+  let sizeClass;
+  switch(size) {
+    case 'm':
+      sizeClass = 'Button--m';
+      break;
+    case 'l':
+      sizeClass = 'Button--l';
+      break;
+    default:
+      sizeClass = 'Button--s';
+  }
 
   //  ${borderClass}  ${className}
   if (navTo) {
-    return <NavLink className={`Button ${sizeClass}`} to={navTo} {...rest}/>;
+    return <NavLink className={`Button ${sizeClass} ${className}`} to={navTo} {...rest}/>;
   }
 
   return <a
-    className={`Button ${sizeClass}`}
-    // style={style}
+    className={`Button ${sizeClass} ${className}`}
     {...rest}
   />
 };

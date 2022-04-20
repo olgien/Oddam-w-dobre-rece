@@ -6,7 +6,7 @@ import {HomeFourColumns} from "./HomeFourColumns/HomeFourColumns";
 import './Home.scss';
 import {HomeHeading} from "./HomeHeading/HomeHeading";
 import {Button} from "../Button/Button";
-import {About, HomeAbout} from "./HomeAbout/HomeAbout";
+import {HomeAbout} from "./HomeAbout/HomeAbout";
 
 export function Home(props) {
   return (
@@ -14,7 +14,7 @@ export function Home(props) {
         <HomeHeading/>
         <HomeThreeColumns/>
         <HomeFourColumns/>
-        <Button className='button-heading' navTo={"/"}>Oddaj rzeczy</Button>
+        <Button navTo={"/"} size='l' style={{width: '250px'}}>Oddaj <br/> rzeczy</Button>
         <HomeAbout/>
     </div>
   );
