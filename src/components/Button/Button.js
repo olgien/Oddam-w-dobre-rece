@@ -12,6 +12,9 @@ export const Button = ({
   // const borderClass = forceBorder ? "Button--bordered" : "";
   let sizeClass;
   switch(size) {
+    case 'xs':
+      sizeClass = 'Button--xs';
+      break;
     case 'm':
       sizeClass = 'Button--m';
       break;

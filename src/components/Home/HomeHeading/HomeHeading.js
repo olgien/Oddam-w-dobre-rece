@@ -16,6 +16,7 @@ export const HomeHeading = () => {
           Zacznij pomagać! <br/>
           Oddaj niechciane rzeczy w zaufane ręce
         </p>
+
         <div className="start-buttons">
           <Button className='button-heading' navTo={"/"} size="l" style={{width: '250px'}}>Oddaj <br/> rzeczy</Button>
           <Button className='button-heading' navTo={"/"} size="l" style={{width: '250px'}}>Zorganizuj<br/> zbiórkę</Button>
