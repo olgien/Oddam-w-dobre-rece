@@ -1,0 +1,21 @@
+.footer {
+  display: block;
+
+  .copyright {
+    font: normal 18px Open Sans;
+    color: #3C3C3C;
+    display: flex;
+    justify-content: center;
+  }
+
+  .socials {
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+
+    img {
+      padding: 10px;
+    }
+  }
+
+}

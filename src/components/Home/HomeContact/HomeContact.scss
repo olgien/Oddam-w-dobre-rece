@@ -1,21 +1,30 @@
 .HomeContact {
-  background: #FFFFFFC9 no-repeat padding-box;
-
   height: 1026px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 
+  .imageContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+    opacity: 0.5;
+
+    img {
+      opacity: 0.3;
+    }
+  }
   .container {
+
     display: flex;
     justify-content: center;
     align-items: center;
-
-    .imageContainer {
-
-      img {
-      opacity: 0.3;
-
-      }
-
-    }
+    position: relative;
+    flex-grow: 1;
 
     .contact {
 
@@ -24,31 +33,7 @@
         font: normal 38px Open Sans;
         color: #3C3C3C;
       }
-
     }
-
   }
-
-  .footer {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-
-    .copyright {
-      font: normal 18px Open Sans;
-      color: #3C3C3C;
-
-    }
-
-    .socials {
-      margin: 0 100px 0px 600px;
-
-      img {
-        padding: 10px;
-      }
-    }
-
-  }
-
 }
 

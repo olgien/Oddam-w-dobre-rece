@@ -1,6 +1,8 @@
-import './HomeFoundation.scss';
-import {Button} from "../../Button/Button";
 import React from "react";
+
+import {Button} from "../../Button/Button";
+
+import './HomeFoundation.scss';
 
 export const HomeFoundation = () => {
   return <div className={"HomeFoundation"}>
