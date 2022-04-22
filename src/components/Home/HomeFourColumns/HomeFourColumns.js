@@ -4,13 +4,14 @@ import Icon3 from './Icon-3.svg';
 import Icon4 from './Icon-4.svg';
 
 import './HomeFourColumns.scss';
+import {Decoration} from "../../Decoration/Decoration";
 
 export const HomeFourColumns = () =>  {
     return(
         <div className='fourColumns'>
            <h2>  Wystarczą 4 proste kroki </h2>
 
-// tu powinna być dekoracja
+              <Decoration/>
 
             <div className='four-column-container'>
                 <div className='column'>

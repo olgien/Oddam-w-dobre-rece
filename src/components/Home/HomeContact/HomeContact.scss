@@ -1,7 +1,10 @@
 .HomeContact {
+  margin-top: 60px;
   height: 1026px;
   display: flex;
   flex-direction: column;
+
+  justify-content: space-between;
   position: relative;
 
   .imageContainer {
@@ -16,17 +19,23 @@
 
     img {
       opacity: 0.3;
+      width: 95%;
     }
   }
   .container {
 
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     position: relative;
     flex-grow: 1;
+    margin-right: 60px;
 
     .contact {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
 
       h2 {
         text-align: center;

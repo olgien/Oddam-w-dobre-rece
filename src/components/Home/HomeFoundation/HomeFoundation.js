@@ -3,13 +3,14 @@ import React from "react";
 import {Button} from "../../Button/Button";
 
 import './HomeFoundation.scss';
+import {Decoration} from "../../Decoration/Decoration";
 
 export const HomeFoundation = () => {
   return <div className={"HomeFoundation"}>
 
       <h2>Komu pomagamy?</h2>
 
-      {/*dekoracja*/}
+      <Decoration/>
 
     <div className={'buttonsFoundation'}>
       <Button navTo={"/"} size='m' style={{width: '250px'}}> Fundacjom </Button>
