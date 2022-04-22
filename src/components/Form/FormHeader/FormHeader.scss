@@ -1,0 +1,37 @@
+.FormHeader {
+  background: url('Home-Hero-Image.jpg') no-repeat -220% 100%;
+  width: 100%;
+  height: auto;
+
+  .wrapper {
+
+    .start {
+
+      .headerText {
+        text-align: center;
+        font: normal normal normal 38px/55px Open Sans;
+        letter-spacing: -0.76px;
+        color: #3C3C3C;
+      }
+
+      .fourSteps {
+
+        .text {
+          text-align: center;
+          font: normal normal 300 40px/55px Open Sans;
+          letter-spacing: 0px;
+          color: #3C3C3C;
+        }
+
+        .square {
+          width: 190px;
+          height: 190px;
+          border: 0.75px solid #3C3C3C;
+          rotate: 45deg;
+        }
+      }
+    }
+  }
+
+
+}
